@@ -1,0 +1,326 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin:auto;
+}
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+nav{
+    background: #252d2f;
+}
+ul{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} */
+.logo{
+    width:20%;
+
+}
+.menu{
+  width: 80%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    align-items: center;
+}
+ ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+    
+ }
+ .menu ul li:hover a{
+    background-color: green;
+ }
+ 
+ #banner{
+    background: url(../image/focalman.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+ }
+ #banner .container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+ }
+ #banner .container h1{
+    border-top: 2px solid#fff;
+    border-bottom: 1px solid#fff;
+    margin:50px auto;
+    color: #fff;
+    text-transform: uppercase;
+ }
+
+ #banner .container a{
+    border: 2px solid;
+    padding:15px 42px;
+    color: #fff;
+    text-transform: uppercase;
+ }
+/* parag section start */
+ #parag{
+    padding:50px;
+ }
+ #parag .info {
+    display: flex; 
+    /* margin: 20px 20px; */
+    width:100%;
+    padding:2px 2px;
+    text-align: center; 
+ }
+
+ #parag .info .valu h3{  
+    font-size: 24px;
+    color: #566366;
+    font-weight: 800;
+    padding:4px;
+    margin:auto;
+ }
+
+ #parag .info .valu p{
+    font-size: 12px;
+    color:#566366;
+    font-weight: 200;
+    margin: 20px 50px;
+    padding:20px 20px;
+   
+ }
+ 
+
+ /* about section start */
+ #about{
+   display:flex;
+ }
+ #about .about_img{
+    width:30%;
+  
+}
+#about .about_img img{
+   width:100%;
+   background-color: #f1f1f1;
+   display: block;
+}
+ 
+ #about .about_item{
+    width:70%;
+    padding: 0px 10px;
+    background-color:#f1f1f1;
+  
+ }
+ #about .about_item h2{
+   margin: auto;
+   padding: 20px 20px;
+   color:#566366;
+ }
+ #about .about_item p{
+   margin:auto;
+    padding: 20px;
+    color: #919191;
+    align-items: flex-start;
+  /* background-color:#f1f1f1; */
+    
+ }
+#about .icons{
+   display:flex;
+   flex-wrap: wrap;
+   /* padding-left:20px; */
+   /* margin: 60px 0; */
+   width:100%;
+    margin-left:60px; 
+ }
+ #about .icons .icon{
+   width:50%;
+   margin: auto;
+   display: flex;
+   align-items:flex-start ;
+   padding: 0 50px 38px 0;
+
+ }
+ #about .icons .icon img{
+  padding-right:20px ;
+ }
+ #about .icons .icon h4{
+  padding-bottom:35px;
+ }
+
+ #about .icon p{
+  justify-content: center;
+  /* padding-right: 20px;
+  margin:0 30px; */
+ }
+ /*about section end*/
+
+ /*skill section start*/
+ #skills{
+   padding: 100px 0;
+ }
+ #skills .content{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ #skills .left{
+   width:50%;
+ }
+ #skills .left h3{
+   text-transform: uppercase;
+   text-align: left;
+   font-size: 30px;
+   font-weight: 700;
+   color: #566366;
+ }
+ #skills .left p{
+   font-size:16px ;
+   color: #566366;
+   margin: 25px 0;
+   margin-bottom: 50px;
+ }
+ #skills .left a{
+   font-size: 18px;
+   font-weight: 200;
+   text-transform: capitalize;
+   background-color: transparent;
+   border: 2px solid #2dcb71;
+   padding: 19px 37px;
+
+ }
+ #skills .right{
+   width:50%;
+   margin:left;
+ }
+ #skills .right .full{
+   width:100%;
+   background: #f1f1f1;
+ }
+ #skills .right .h4{
+   margin-top: 39px;
+   margin-bottom: 19px;
+ }
+ #skills .right .photoshop{
+   width:90% ;
+   background: #2dcb71;
+   text-align: right;
+ }
+ #skills .right .illustrator{
+   width:80%;
+   background: #2dcb71;
+   text-align:right ;
+ }
+ #skills .right .html{
+   width:90%;
+   background:#2dcb71;
+   text-align:right ;
+ }
+ #skills .right .php{
+   width:90%;
+   background:#2dcb71 ;
+   text-align:right ;
+ }
+
+ /*skill section end*/
+
+ /*resume section start*/
+ 
+ #resume .resume-info{
+  display:flex;
+  flex-wrap: wrap;
+  /* width:100%; */
+  background-color: #f1f1f1;
+ }
+ #resume .resume-info h4{
+  margin: auto;
+  font-size: 30px;
+  color: #566366;
+ }
+ #resume .resume-info p{
+  margin: auto;
+  text-align: center; 
+   /* width:100%;  */
+  padding: 20px 40px;
+  color: #566366;
+ }
+ #resume .resume-info a{
+  margin: auto;
+  border:2px solid #2dcb71;
+  color: #2dcb71;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ } 
+ /*resume section end*/
+ #education {
+  margin:20px;
+  
+ }
+ #education .gpa{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ #education .part-1{
+  width:50%;
+  padding-bottom: 10px;
+  border-bottom: 10px;
+  border-color: #ca4510;
+ }
+ #education .part-1 h4{
+  text-align: left;
+  font-size: 30px;
+  color: #566366;
+  padding: 0 20px;
+ }
+#education .part-1 p{
+  font-size: 18px;
+  color: #919191;
+  padding:20px 20px;
+}
+ #education .part-2{
+  width: 50%;
+  padding: 0 20px;
+ }
+ #education .part-2 h5{  
+  font-size: 22px;
+  color: #566366;
+ }
+ #education .part-2 p{
+  font-size: 18px;
+  color:#919191;
+  margin-left: 25px;
+  padding: 10px;
+ }
+ #education .part-2 a{
+  border: 2px solid #2dcb71;
+  background-color: #2dcb71;
+  color: #fff;
+  margin-bottom: 20px;
+  padding-top: 2px;
+  border-bottom: 2px;
+
+ }
